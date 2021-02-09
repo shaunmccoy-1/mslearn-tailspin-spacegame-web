@@ -5,11 +5,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using TailSpin.SpaceGame.Web.Model;
+using TailSpin.SpaceGame.Web.Models;
 
 namespace TailSpin.SpaceGame.Web
 {
-    public class LocalDocumentDBRepository<T> : IDocumentDBRepository<T> where T : Model
+    public class LocalDocumentDBRepository<T> : IDocumentDBRepository<T> where T : Models
     {
         // An in-memory list of all items in the collection.
         private readonly List<T> _items;
