@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using TailSpin.SpaceGame.Web.Models;
+using TailSpin.SpaceGame.Web.Model;
 
 namespace TailSpin.SpaceGame.Web
 {
