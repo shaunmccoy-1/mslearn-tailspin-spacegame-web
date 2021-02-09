@@ -9,7 +9,7 @@ using TailSpin.SpaceGame.Web.Models;
 
 namespace TailSpin.SpaceGame.Web
 {
-    public class LocalDocumentDBRepository<T> : IDocumentDBRepository<T> where T : Models
+    public class LocalDocumentDBRepository<T> : IDocumentDBRepository<T> where T : Model
     {
         // An in-memory list of all items in the collection.
         private readonly List<T> _items;
